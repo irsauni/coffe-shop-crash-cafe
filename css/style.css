@@ -13,6 +13,13 @@
     text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
+ html{
+     scroll-behavior: smooth;
+ }
+
+>>>>>>> ecdd24b87960c1ae500d331e7cdbff9c645ab58e
 body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
@@ -392,7 +399,10 @@ footer .credit a{
         padding-top: 0;
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ecdd24b87960c1ae500d331e7cdbff9c645ab58e
 /*Mobile Phone*/
 
 @media (max-width:450px){
