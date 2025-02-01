@@ -408,4 +408,38 @@ footer .credit a{
 @media (max-width:450px){
     html{
         font-size: 55%;}
+    .navbar {
+        flex-direction: column;
+        padding: 1rem 3%;
+    }
+
+    .navbar .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar .navbar-nav a {
+        padding: 1rem 0;
+        font-size: 1.5rem;
+    }
+
+    /* Gambar di about section */
+    .about .row .about-img img {
+        height: 25rem;
+        object-fit: cover;
+    }
+
+    /* Memperbaiki menu cards agar tidak terlalu besar di mobile */
+    .menu .row .menu-card {
+        width: 45%;
+        margin: 1rem;
+    }
+
+    .menu .row .menu-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+}
     }
