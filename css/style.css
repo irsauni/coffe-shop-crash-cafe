@@ -13,10 +13,6 @@
     text-decoration: none;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
@@ -397,10 +393,8 @@ footer .credit a{
     }
 }
 
-
-
-
 /*Mobile Phone*/
+
 @media (max-width:450px){
     html{
         font-size: 55%;}
